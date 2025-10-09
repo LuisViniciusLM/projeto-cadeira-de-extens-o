@@ -140,7 +140,7 @@ CREATE TABLE chat_mensagens(
 ▶️ Executando o Servidor
 Ambiente de desenvolvimento:
 ```bash
-node server.js
+node src/server.js
 ```
 
 Servidor rodará por padrão em:
