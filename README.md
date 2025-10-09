@@ -240,7 +240,7 @@ Abra um Pull Request
 📜 Licença
 Projeto livre para fins educacionais e extensão universitária.
 
-Desenvolvido por Pedro Arthur LuisViniciusLM e equipe 💻
+Desenvolvido por Pedro Arthur, LuisViniciusLM e equipe 💻
 © 2025 - Projeto de Extensão Acadêmica
 
 💬 Contato
