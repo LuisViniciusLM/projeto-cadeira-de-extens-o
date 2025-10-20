@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ===============================
 # 🚀 Node.js / Express API
 # ===============================
@@ -89,31 +88,3 @@ lcov-report/
 # ✅ Mantém arquivos de exemplo
 # ===============================
 !.env.example
-=======
-# Node
-node_modules/
-npm-debug.log*
-yarn.lock
-pnpm-lock.yaml
-bun.lockb
-dist/
-build/
-.tmp/
-.temp/
-.cache/
-
-# Env
-.env
-.env.*
-!*.example
-
-# Editor/OS
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-logs/
->>>>>>> 3742439 (feat: projeto unificado (frontend React + backend Express) com Postgres (Neon) e schema.sql)
