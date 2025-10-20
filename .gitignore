@@ -1,119 +1,14 @@
-<<<<<<< HEAD
-# ===============================
-# 🚀 Node.js / Express API
-# ===============================
-
-# Dependências
-/node_modules
-/.pnp
-.pnp.js
-
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Test coverage
-/coverage
-
-# Cache
-.nyc_output
-.cache
-dist
-build
-tmp
-temp
-
-
-# Variáveis de ambiente
-.env
-.env.local
-.env.*.local
-
-# Configurações de sistema
-.DS_Store
-Thumbs.db
-
-# IDEs e editores
-.vscode/
-.idea/
-*.iml
-
-# Pacotes e artefatos
-*.tgz
-*.zip
-
-# Arquivos de execução temporários
-*.pid
-*.seed
-*.pid.lock
-
-# PM2 / nodemon
-pids
-*.pid
-*.pid.lock
-.nodemonignore
-
-# Arquivos gerados por builds locais
-out/
-lib/
-.eslintcache
-.stylelintcache
-
-# Arquivos de debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Coverage reports
-coverage/
-lcov-report/
-
-# ===============================
-# 🚧 Exclusões específicas do projeto
-# ===============================
-
-# Backups e dumps SQL
-*.sql
-*.bak
-*.dump
-
-# Uploads locais
-/uploads
-/public/uploads
-/storage
-
-# ===============================
-# ✅ Mantém arquivos de exemplo
-# ===============================
-!.env.example
-=======
-# Node
+# .gitignore na RAIZ (se já tiver, só confira que contém estas linhas)
+@"
 node_modules/
-npm-debug.log*
-yarn.lock
-pnpm-lock.yaml
-bun.lockb
 dist/
 build/
-.tmp/
-.temp/
-.cache/
-
-# Env
+*.log
 .env
 .env.*
 !*.example
+"@ | Out-File -Encoding utf8 .gitignore
 
-# Editor/OS
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-logs/
->>>>>>> 3742439 (feat: projeto unificado (frontend React + backend Express) com Postgres (Neon) e schema.sql)
+# apagar dependências locais (não versionar)
+rd /s /q backend\node_modules 2>$null
+rd /s /q frontend\node_modules 2>$null
